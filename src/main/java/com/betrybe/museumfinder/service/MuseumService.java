@@ -2,9 +2,11 @@ package com.betrybe.museumfinder.service;
 
 import com.betrybe.museumfinder.database.MuseumFakeDatabase;
 import com.betrybe.museumfinder.exception.InvalidCoordinateException;
+import com.betrybe.museumfinder.exception.MuseumNotFoundException;
 import com.betrybe.museumfinder.model.Coordinate;
 import com.betrybe.museumfinder.model.Museum;
 import com.betrybe.museumfinder.util.CoordinateUtil;
+import java.util.Optional;
 import org.springframework.stereotype.Service;
 
 /**
@@ -21,7 +23,13 @@ public class MuseumService implements MuseumServiceInterface {
 
   @Override
   public Museum getClosestMuseum(Coordinate coordinate, Double maxDistance) {
-    return null;
+    Optional<Museum> closestMuseum = this.database.getClosestMuseum(coordinate, maxDistance);
+    if (!CoordinateUtil.isCoordinateValid(coordinate)) {
+      throw new InvalidCoordinateException();
+    } else if (closestMuseum.isEmpty()) {
+      throw new MuseumNotFoundException();
+    }
+    return closestMuseum.get();
   }
 
   @Override
