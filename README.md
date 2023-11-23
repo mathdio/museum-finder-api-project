@@ -22,6 +22,12 @@ In project root terminal, run:
 docker build -t museum-finder-image .
 ```
 
+### 📦 Creating Docker container
+In project root terminal, run:
+```
+docker run -p 8080:8080 --name museum-finder-container museum-finder-image
+```
+
 ### 🏃‍♀ Running the application
 You must execute the `Principal.java` file in `src/main/java/com/trybe/sistemadevotacao/` folder by clicking the run button in your IDE or running the following commands in project's root terminal.
 To compile the code, run:
