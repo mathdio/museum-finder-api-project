@@ -1,6 +1,6 @@
 # :construction: README em construção ! :construction:
-# 🏛️ Museum Finder Project
-...developed as a [Trybe](https://www.betrybe.com) Project.
+# 🏛️ Museum Finder API
+A museum search API developed as a [Trybe](https://www.betrybe.com) Project.
 
 ## 💻 About this project
 
