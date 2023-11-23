@@ -3,7 +3,7 @@
 A museum search API developed as a [Trybe](https://www.betrybe.com) Project.
 
 ## 💻 About this project
-This is a Java built-in museum search API using Spring framework. The API has endpoints that allow the users to: register new museums, search museums by id or search museums by coordinates and max distance (km).
+This is a Java built-in museum search API using Spring framework. The API has endpoints that allow the users to: register new museums, search museums by id or search museums by coordinates and max distance (km). The available endpoints are listed in a section below.
 
 
 ## 🛠️ Built with
@@ -36,3 +36,6 @@ In project root terminal, run:
 docker run -p 8080:8080 --name museum-finder-container museum-finder-image
 ```
 Once the container is created (or after starting the container), the application will start running automatically, unless the port 8080 is already in use. You can start the container with `docker start museum-finder-container` after stopping the process using the port 8080.
+
+## 🛣️ Available endpoints
+## 🧪 Testing
