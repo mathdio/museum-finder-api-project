@@ -22,21 +22,9 @@ In project root terminal, run:
 docker build -t museum-finder-image .
 ```
 
-### 📦 Creating Docker container
+### 📦🏃‍♀ Creating Docker container and running the application
 In project root terminal, run:
 ```
 docker run -p 8080:8080 --name museum-finder-container museum-finder-image
 ```
-Once the container is created, it will start running automatically, unless the port 8080 is already in use. You can start the container with `docker start museum-finder-container` after stopping the process using the port 8080.
-
-### 🏃‍♀ Running the application
-You must execute the `Principal.java` file in `src/main/java/com/trybe/sistemadevotacao/` folder by clicking the run button in your IDE or running the following commands in project's root terminal.
-To compile the code, run:
-```
-javac -d . **/*.java  
-```
-Next, to run the program, run in terminal:
-```
-java com.betrybe.sistemadevotacao.Principal
-```
-Then, the application will start automatically in your terminal.
+Once the container is created (or after starting the container), the application will start running automatically, unless the port 8080 is already in use. You can start the container with `docker start museum-finder-container` after stopping the process using the port 8080.
