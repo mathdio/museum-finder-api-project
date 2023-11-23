@@ -10,6 +10,13 @@ A museum search API developed as a [Trybe](https://www.betrybe.com) Project.
 <a href="https://spring.io/quickstart" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white" alt="Spring" /></a>
 
 ## 🎯 Used skills
+- Spring Boot;
+- Spring Actuator;
+- RESTful API development;
+- Controller and service layers architecture;
+- Java Exceptions handling;
+- Tests with JUnit 5 and Spring Boot Test;
+- App dockerization.
 
 ## 🏁 Getting started
 ### 🐋 Installing Docker
