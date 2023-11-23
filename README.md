@@ -3,6 +3,7 @@
 A museum search API developed as a [Trybe](https://www.betrybe.com) Project.
 
 ## 💻 About this project
+This is a Java built-in museum search API using Spring framework. The API has endpoints that allow the users to: register new museums, search museums by id or search museums by coordinates and max distance (km).
 
 
 ## 🛠️ Built with
