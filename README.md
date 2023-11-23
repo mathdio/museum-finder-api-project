@@ -12,16 +12,14 @@
 ## 🎯 Used skills
 
 ## 🏁 Getting started
-### ♨️ Installing Java
-You can see [here](https://www.java.com/download/manual.jsp) how to download and install Java. The version used in the project was Java 17.
+### 🐋 Installing Docker
+As the project is containerized, to run the application you will need to install Docker. The Docker version used in this project was 24.0.7. You can see [here](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04) how to install it.
 
-### 🪶 Installing Maven
-You can see [here](https://maven.apache.org/download.cgi) how to download Maven and [here](https://maven.apache.org/install.html) to see how to install it. The version used in the project was 3.8.8.
 
-### ⬇️ Installing the dependencies
+### 🖼️ Creating Docker image
 In project root terminal, run:
 ```
-mvn install
+docker build -t museum-finder-image .
 ```
 
 ### 🏃‍♀ Running the application
