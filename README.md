@@ -47,6 +47,7 @@ Services and endpoints:
 | Register a museum | POST | http://localhost:8080/museums |
 | Get a museum by id | GET | http://localhost:8080/museums/{id} |
 | Get closest museum by coordinates | GET | http://localhost:8080/museums/closest?lat=&lng=&max_dist_km= |
+| Get museums count by collection types | GET | http://localhost:8080/collections/count/{typesList} |
 
 > Request body example to register a museum:
 > ```
