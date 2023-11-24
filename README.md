@@ -68,4 +68,8 @@ Services and endpoints:
 >
 > URL example: `http://localhost:8080/museums/1`
 
+> ##### "Get closest museum" endpoint example:
+> 
+> If an user in -20.4435° latitude and -54.6478° longitude wants to find the closest museum in a 10 km radius, the url must be `http://localhost:8080/museums/closest?lat=-20.4435&lng=-54.6478&max_dist_km=10`.
+
 ## 🧪 Testing
