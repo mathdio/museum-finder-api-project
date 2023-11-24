@@ -48,6 +48,22 @@ Services and endpoints:
 | Get a museum by id | GET | http://localhost:8080/museums/{id} |
 | Get closest museum by coordinates | GET | http://localhost:8080/museums/closest?lat=&lng=&max_dist_km= |
 
+> Request body example to register a museum:
+> ```
+> {
+>  "name": "Name",
+>   "description": "Description",
+>   "address": "Address",
+>   "collectionType": "Collection type",
+>   "subject": "Subject",
+>   "url": "Url",
+>   "coordinate": {
+>     "latitude": 3.45,
+>     "longitude": 3.54
+>   }
+> }
+> ```
+
 > The <b>available ids</b> to be used in the endpoint are between 1 and 3769.
 >
 > URL example: `http://localhost:8080/museums/1`
