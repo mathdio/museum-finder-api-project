@@ -1,4 +1,3 @@
-# :construction: README em construção ! :construction:
 # 🏛️ Museum Finder API
 A museum search API developed as a [Trybe](https://www.betrybe.com) Project.
 
@@ -78,3 +77,11 @@ Services and endpoints:
 > The user can search for one or more types (separated by commas). If the user wants search for "história" type only, the url must be `http://localhost:8080/collections/count/história`. The search is by substrings, so is possible to search "história" and "artes" as `http://localhost:8080/collections/count/hist,art`.
 
 ## 🧪 Testing
+In project root terminal, run:
+```
+mvn test
+```
+Or for execute only one test class, run:
+```
+mvn test -Dtest="TestClassName"
+```
