@@ -72,5 +72,9 @@ Services and endpoints:
 > ##### "Get closest museum" endpoint example:
 > 
 > If an user in -20.4435° latitude and -54.6478° longitude wants to find the closest museum in a 10 km radius, the url must be `http://localhost:8080/museums/closest?lat=-20.4435&lng=-54.6478&max_dist_km=10`.
+ 
+> ##### Museum count route examples
+> 
+> The user can search for one or more types (separated by commas). If the user wants search for "história" type only, the url must be `http://localhost:8080/collections/count/história`. The search is by substrings, so is possible to search "história" and "artes" as `http://localhost:8080/collections/count/hist,art`.
 
 ## 🧪 Testing
