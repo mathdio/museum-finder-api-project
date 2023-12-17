@@ -38,7 +38,7 @@ Once the container is created (or after starting the container), the application
 
 ## 🛣️ Available endpoints
 To use the API services you will can use a web browser or a client for APIs testing, like [Thunder Client](https://www.thunderclient.com) or [Insomnia](https://insomnia.rest/download).
-The API endpoints are listed in the table below, as well as some examples of request body before the table.
+The API endpoints are listed in the table below, as well as some examples of request body after the table.
 
 Services and endpoints:
 | Service | Method | Endpoint |
